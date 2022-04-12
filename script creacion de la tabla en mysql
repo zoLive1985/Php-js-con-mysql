@@ -1,0 +1,14 @@
+CREATE TABLE `catastro_fincas` 
+(`id_catastro_finca` BIGINT NOT NULL AUTO_INCREMENT,
+`nombre_finca` varchar(100) NOT NULL, 
+`alimento` varchar(100) Not NULL, 
+`region` varchar(50) NOT NULL, 
+`latitud` decimal(20,4) NOT NULL, 
+`longitud`decimal(20,4) NOT NULL, 
+`vacas` int(20) NOT NULL, 
+`vaconas` int(20) NOT NULL, 
+`terneras` int(20) NOT NULL, 
+`terneros` int(20) NOT NULL, 
+`toros` int(20) NOT NULL, 
+`toretes` int(20) NOT NULL,
+NOT NULL, PRIMARY KEY (`id_catastro_finca`) )ENGINE=InnoDB;
